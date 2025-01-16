@@ -162,7 +162,7 @@ main{
     margin-bottom: 0px;
 }
 .feature-container{
-    margin-right: 50px;
+    margin-right: 100px;
 }
 .feature-card{
     background-color: white;
@@ -170,6 +170,16 @@ main{
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 8px;
+}
+#year{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+#btn-for-feature-love{
+font-size: 1.25rem;
+font-weight: 500;
+margin-left: -50px;
+margin-top: -80px;
 }
 
 
