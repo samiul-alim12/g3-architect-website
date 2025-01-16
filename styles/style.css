@@ -181,10 +181,18 @@ font-weight: 500;
 margin-left: -50px;
 margin-top: -80px;
 }
-.feature-image img{
-    width: 100%;
-}
 
+/* footer */
+.footer{
+    justify-items: center;
+    background-color: #FFF4E7;
+    padding: 20px 300px;
+    border-radius: 8px;
+}
+footer{
+    max-width: 1100px;
+    margin: 80px auto;
+}
 
 /* responsive for mobile device */
 @media screen and (max-width:576px) {
@@ -223,6 +231,16 @@ margin-top: -80px;
         margin-top: 0px;
         margin-left: 0px;
     }
+    .feature-image img{
+        width: 100%;
+    }
+    /* footer */
+    .footer{
+        padding: 10px;
+        margin: 0px 30px;
+        text-align: center;
+        
+    }
 }
 
 
@@ -246,5 +264,9 @@ margin-top: -80px;
         margin-top: 0px;
         margin-left: 0px;
     }
+    .footer{
+        padding: 20px 200px;
+    }
+
 
 }
