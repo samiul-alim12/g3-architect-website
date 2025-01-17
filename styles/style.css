@@ -153,6 +153,12 @@ main{
 }
 
 /* feature love section */
+#feature-title{
+    border-left: 5px solid #FF900E;
+    height: 80px;
+    padding-left: 15px;
+    font-size: 2rem;
+}
 .feature-love{
     display: flex;
     margin-top: 130px;
